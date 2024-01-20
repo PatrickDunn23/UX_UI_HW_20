@@ -247,7 +247,7 @@ h2{
 
 .gridRows{
     display: grid;
-    grid-template-rows:  auto auto auto;
+    grid-template-rows: auto auto auto  ;
 }
 
 .caseimage{
@@ -385,82 +385,11 @@ ul li {
 
 
 
-  /* Animations and media................. */
-@keyframes spin {
-    from {transform: rotate(180deg);
-  
+
+
+      .active{
+        color: #EF9A63;
     }
-    to {transform: rotate(-180deg);
-  
-    }}
-
- @media screen and (max-width:600px) {
-    /* Flex changes................. */   
-    .flexContainer{
-            display: flex;
-            flex-direction: column;
-        }
-        .metext{
-            color: black;
-            font-family: 'Lato', sans-serif;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            letter-spacing: 1.6px;
-            width: 100%;
-        }
-        
-        .profilePic{
-            width: 100%;
-            background-image: url(/images/A000453-R1-02-1A.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 40vh;
-            margin-left: 0px;
-        }
-   
-    /* Grid changes................. */
-    .WorkGrid{
-        width: cover;
-        display: grid;
-        grid-template-rows: 100% 100% 100% cover ;
-        grid-template-columns: 1fr;
-        margin-left: 60px;
-        margin-right: 60px;
-        padding-top: 50px;
-        margin-bottom: 50px;  
-    }
-    .caseimage{
-        width: 100%;
-        padding-top: 30px;
-        padding-left: 0px;
-     }
-}
-
-.active{
-    color: #EF9A63;
-}
-
-
-@media screen and (max-width:1000px) {
-  /* Flex changes................. */   
-  h4{
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 1.6px;
-    text-transform: capitalize;
-    padding-right: 50px;
-}
-      }
-
-
-
 /* Resume overlay changes................. */
 
       *, *::after, *::before {
@@ -570,5 +499,127 @@ margin-right: 60px;      }
 
 .cardBg{
 background-color:  #88A79F  !important;
-border: none !important;
+
 }
+.cardPadd{
+  padding-right: 50px;
+ 
+}
+.descriptionCard{
+  height: auto !important;
+  
+  padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Animations and media................. */
+  @keyframes spin {
+    from {transform: rotate(180deg);
+  
+    }
+    to {transform: rotate(-180deg);
+  
+    }}
+
+ @media screen and (max-width:600px) {
+    /* Flex changes................. */   
+    .flexContainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .metext{
+            color: black;
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            width: 100%;
+        }
+        
+        .profilePic{
+            width: 100%;
+            background-image: url(/images/A000453-R1-02-1A.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 40vh;
+            margin-left: 0px;
+        }
+   
+    /* Grid changes................. */
+    .WorkGrid{
+        width: cover;
+        display: grid;
+        grid-template-rows: 100% 100% 100% cover ;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 50px;
+        margin-bottom: 50px;  
+    }
+    .caseimage{
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0px;
+     }
+     .descriptionCard{
+      padding-right: 0px;
+      
+
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+  /* Flex changes................. */   
+  h4{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+      }
+
+      h3{
+        color: black;
+
+font-family: 'Lato', sans-serif;
+font-size: 65px !important;
+font-style: normal;
+font-weight: 500 !important;
+line-height: normal !important;
+letter-spacing: 1.8px;
+text-transform: capitalize;
+      }
+
+      .wetlandFooterBackground {
+
+        background-image: url(../images/Wetland-footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px; 
+        position: relative;
+        z-index: 1;
+
+      }
