@@ -164,6 +164,8 @@ h2{
 .flexContainer{
     display: flex; 
     justify-content: space-between;
+    
+    
 }
 
 .metext{
@@ -382,7 +384,15 @@ ul li {
     padding-left: 30px;
 }
 
+.whaleImage{
+max-width: 70%;
+padding-top: 20px;
+}
+.whalediv{
 
+  display: flex;
+  justify-content: end;
+}
 
 
 
@@ -477,11 +487,16 @@ ul li {
       }
 
       /* Unit 20 Bootstrap................. */
-      .jumbotronMod{
+      .caseHead{
         margin-top: 150px;
         margin-left: 60px;
         margin-right: 60px;
       }
+
+
+
+
+
       .marginc{
 margin-left: 60px;
 margin-right: 60px;      }
@@ -511,7 +526,14 @@ background-color:  #88A79F  !important;
   padding-right: 50px;
 }
 
-
+.projectInfo{
+  color: #000;
+  font-family:  'Lato', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 200px;}
 
 
 
