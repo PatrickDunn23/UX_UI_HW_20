@@ -23,7 +23,7 @@
     display: flex;
     vertical-align: top;  
     justify-content: space-between; 
-    color: #000;
+    color: #000 !important;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -157,7 +157,7 @@ h2{
 /* About Page................. */
 .hrabout{
     background-color: black;
-    height: 3px;
+    height: 2px;
     width: 100%; 
 }
 
@@ -229,7 +229,7 @@ h2{
 
 .hrcase{
     background-color: black;
-    height: 3px;
+    height: 2px;
     width: calc(100% - 120px);
     position: absolute;
     margin-left: 60px;
@@ -247,7 +247,7 @@ h2{
 
 .gridRows{
     display: grid;
-    grid-template-rows:  minmax(auto, 200px) auto 80px;
+    grid-template-rows:  auto auto auto;
 }
 
 .caseimage{
@@ -290,7 +290,7 @@ h4{
 
  .hrfooter{
     background-color: black;
-    height: 3px;
+    height: 2px;
     width: calc(100% - 120px);
     position: absolute;
     bottom: 0;
@@ -442,6 +442,25 @@ ul li {
 .active{
     color: #EF9A63;
 }
+
+
+@media screen and (max-width:1000px) {
+  /* Flex changes................. */   
+  h4{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+      }
+
+
+
 /* Resume overlay changes................. */
 
       *, *::after, *::before {
@@ -527,3 +546,29 @@ ul li {
         width: 550px;
         height: auto;
       }
+
+      /* Unit 20 Bootstrap................. */
+      .jumbotronMod{
+        margin-top: 150px;
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+      .marginc{
+margin-left: 60px;
+margin-right: 60px;      }
+
+.caseAbout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.caseh{
+  width: 70%;
+  height: auto;
+}
+
+.cardBg{
+background-color:  #88A79F  !important;
+border: none !important;
+}
