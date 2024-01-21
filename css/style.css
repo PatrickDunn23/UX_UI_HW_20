@@ -35,10 +35,10 @@
     margin-right: 60px;
     height:120px;
     align-items: center;
-}
+   }
 a{
-       text-decoration: none;
-       color: black;
+       text-decoration: none !important;
+       color: black !important;
         
 }
 
@@ -56,6 +56,7 @@ a{
 
 .navoptions{
     padding-left: 50px;
+   
   
 }
 
@@ -520,11 +521,7 @@ background-color:  #88A79F  !important;
   padding-right: 50px;
  
 }
-.descriptionCard{
-  height: auto !important;
-  
-  padding-right: 50px;
-}
+
 
 .projectInfo{
   color: #000;
@@ -597,11 +594,10 @@ background-color:  #88A79F  !important;
         padding-top: 30px;
         padding-left: 0px;
      }
-     .descriptionCard{
+     .cardPadd{
       padding-right: 0px;
-      
-
     }
+
     
 }
 
