@@ -641,3 +641,6 @@ text-transform: capitalize;
         z-index: 1;
 
       }
+      .italic{
+        font-style: italic;
+      }
