@@ -255,7 +255,8 @@ h2{
 
 .caseimage{
    width: 100%;
-   padding-left: 50px;
+   padding-left: 0px;
+   border-radius: 5px;
 }
 
 .skills{
@@ -295,9 +296,10 @@ h4{
     background-color: black;
     height: 2px;
     width: calc(100% - 120px);
-    position: absolute;
     bottom: 0;
-   transform: translateY(-220px);
+    margin-left: 60px;
+    
+   
 }
 
 .footer {
@@ -511,7 +513,7 @@ margin-right: 60px;      }
 }
 
 .cardBg{
-background-color:  #B9D9D1  !important;
+background-color:  #A5C6BD  !important;
 
 }
 .cardPadd{
@@ -587,9 +589,11 @@ background-color:  #B9D9D1  !important;
         margin-bottom: 50px;  
     }
     .caseimage{
-        width: 100%;
-        padding-top: 30px;
         padding-left: 0px;
+        border-radius: 5px;
+        
+        
+       
      }
      .cardPadd{
       padding-right: 0px;
